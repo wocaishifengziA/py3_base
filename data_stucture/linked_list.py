@@ -82,8 +82,15 @@ class SingleLinkList(object):
         return False
 
 
+if __name__ == "__main__":
+    linked = SingleLinkList()
+    linked.append("a")
+    linked.append("b")
+    linked.append("c")
 
-
+    # linked.travel()
+    linked.insert(4, "x")
+    linked.travel()
 
 
 
